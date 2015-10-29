@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SmartHome</string>
+    <string name="action_settings">Settings</string>
+    <string name="userinformationlogin">ຊື່ຜູ້ໃຊ້ບໍ່ສາມາດເປັນຄ່າຫວ່າງໄດ້</string>
+    <string name="title_activity_toiletcontroller">toiletcontroller</string>
+    <string name="aboutconnect">
+        App SmartHome ເປັນແອບທີ່ໃຊ້ໃນການທົດສອບ SmartHome model ໃນງານວິທະຍາສາດ ທີ່ ມຊ ເຊິງແອບນີ່ສ້າງຂື້ນໂດຍກຸ່ມ robot ທີ່ ມຊ
+        ແລະຈະໄດ້ປ່ຽນຊື່ກຸ່ມໄຫມ່ໂດຍໃສ່ຊື່ກຸ່ມວ່າ Nuol Maker ແອບນີ້ເກີດຂື້ນມາໄດ້ຈາກການສະນັບສະຫນູນຈາກອ້າຍໆນ້ອງໃນ Nuol maker ໂດຍສະເພາະ
+        ແມ່ນທາງ ອ້າຍຫມູນ້ອຍ ອ້າຍໃຫຍ່ໃຈດີຂອງເຮັາ. ແລະຂໍຂອບໃຈອ້າຍສີນິນທີ່ສະນັບສະຫນູນເງິນທຶນ.
+        ແອບນີ້ພັດທະນາໂດຍ : Xang
+        ສະຫນັບສະຫນູນ ແລະ ທີປຶກສາໂດຍ : ອ້າຍຫມູນ້ອຍ
+            </string>
+</resources>

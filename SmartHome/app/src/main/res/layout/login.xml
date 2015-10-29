@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+
+        app:elevation="10dp"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:id="@+id/view"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp">
+        <TextView
+            android:gravity="center"
+            android:textSize="30dp"
+            android:background="@color/colorPrimary"
+            android:text="Login To Home"
+            android:textColor="@color/cardview_light_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="140dp"
+            android:layout_height="wrap_content"
+            android:layout_width="250dp"
+
+            >
+            <EditText
+                android:textColor="@color/colorAccent"
+                android:textColorHint="@color/cardview_light_background"
+                android:hint="ຊື່ຜູ້ໃຊ້"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/username" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+
+            android:onClick="loginnclick"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/cardview_light_background"
+            android:background="@color/colorAccent"
+            android:text="ເຂົ້າສູ່ເຮື່ອນ"
+            android:layout_marginTop="220dp"
+            android:id="@+id/login"
+            android:layout_width="240dp"
+            android:layout_height="50dp" />
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

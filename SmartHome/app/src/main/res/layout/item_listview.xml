@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="3dp"
+    android:background="@drawable/clickable"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:descendantFocusability="blocksDescendants"
+        android:background="@drawable/clickable"
+        app:elevation="8dp"
+        android:layout_height="70dp"
+        android:layout_width="match_parent"
+        >
+        <Switch
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="300dp"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:id="@+id/ligthswith"
+            android:gravity="center" />
+
+        <TextView
+
+            android:background="@drawable/clickable"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="New Text"
+            android:id="@+id/itemlablelist" />
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+</LinearLayout>
